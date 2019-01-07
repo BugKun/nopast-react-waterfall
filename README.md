@@ -34,11 +34,11 @@ class App extends Component {
 
     return (
         <ReactWaterFall options={...}>
-            <div><img /></div>
-            <div><img /></div>
-            <div><img /></div>
-            <div><img /></div>
-            <div><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
         </ReactWaterFall>
     )
   }
@@ -63,11 +63,11 @@ class App extends Component {
 
     return (
         <ReactWaterFall options={...}>
-            <div><img /></div>
-            <div><img /></div>
-            <div><img /></div>
-            <div><img /></div>
-            <div><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
+            <div style={{height: 500, width: 400}}><img /></div>
         </ReactWaterFall>
     )
   }
