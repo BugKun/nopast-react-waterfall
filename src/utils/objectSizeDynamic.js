@@ -5,7 +5,7 @@ export default ({childrenSize, column, spaceBetween}) => {
 
     const childrenSizeDynamic = {
         width: widthDynamic,
-        height: height.map(item => widthDynamic / width * item)
+        height: height.map(item => item / width * widthDynamic)
     };
 
     return childrenSizeDynamic;
